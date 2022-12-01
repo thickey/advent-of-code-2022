@@ -1,7 +1,7 @@
 (ns day-1-test
   (:require
    [clojure.test :refer [use-fixtures deftest testing is]]
-   [day-1 :refer :all]))
+   [day-1-verbose :refer :all]))
 
 (deftest group-calories-test
   (testing "grouping"

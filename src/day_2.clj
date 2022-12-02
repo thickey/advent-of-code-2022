@@ -1,7 +1,6 @@
 (ns day-2
   (:require
    [clojure.java.io :as io]
-   [utils.data :as data]
    [utils.edn :as edn]))
 
 (def play->shape '{A :rock
